@@ -19,3 +19,8 @@ NOTE: You do not need to run UploadFiles.ps1, SharePointMigration.ps1 calls it o
 ~~~powershell
 .\SharePointMigration.ps1 -SourceList "..\ExcelFiles\listofsites.csv" 
 ~~~
+
+
+### Other Notes
+
+Feel free to modify the code to replicate sites file for file. The current script is setup to achieve a specific business purpose but can easily be modified to accomplish many other SharePoint file tasks through the backend/PowerShell.
